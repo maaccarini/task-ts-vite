@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "target": "esnext",
+    "module": "es2020",
+    "moduleResolution": "bundler",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    // "types": ["node"],
+    // and npm install -D @types/node
+  },
+  "include": ["src"],
+}
